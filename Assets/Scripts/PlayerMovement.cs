@@ -6,7 +6,9 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public float linearSpeed = 10f;
+    public Transform movementDirectionBase;
     public Rigidbody body;
+
     private Vector2 movementVector = Vector2.zero;
 
     void Awake()
@@ -25,6 +27,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        body.AddForce(transform.forward * movementVector.y + transform.right * movementVector.x);
+        body.AddForce(movementDirectionBase.forward * movementVector.y + movementDirectionBase.right * movementVector.x);
     }
 }
