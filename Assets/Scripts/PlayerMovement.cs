@@ -55,11 +55,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (transform.position.y < restartHeight)
         {
-            StartCoroutine(Restart());
+            Restart();
         }
     }
 
-    IEnumerator Restart()
+    public void Restart()
+    {
+        StartCoroutine(RestartCoroutine());
+    }
+
+    IEnumerator RestartCoroutine()
     {
         body.Sleep();
         body.velocity = Vector3.zero;

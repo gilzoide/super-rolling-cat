@@ -808,26 +808,6 @@ PrefabInstance:
       value: OnMove
       objectReference: {fileID: 0}
     - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.25740597
-      objectReference: {fileID: 0}
-    - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.02226353
-      objectReference: {fileID: 0}
-    - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.02286932
-      objectReference: {fileID: 0}
-    - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.96577615
-      objectReference: {fileID: 0}
-    - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.0900002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1922863859948281401, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 29.882
       objectReference: {fileID: 0}
@@ -839,10 +819,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.162
       objectReference: {fileID: 0}
-    - target: {fileID: 2279267054241261425, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f14e7ec8ccd793af5ba018c646254ea4, type: 2}
     - target: {fileID: 2279267054241261427, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
@@ -862,38 +838,6 @@ PrefabInstance:
     - target: {fileID: 2279267054241261431, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: linearSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Score, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayerDied
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6167650176673169431, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: movementDirectionBase
@@ -945,6 +889,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7823137875535641909, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256776378037296482, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
+      propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

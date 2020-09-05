@@ -34,7 +34,7 @@
             fixed4 frag (v2f_img i) : SV_Target
             {
                 fixed4 color = tex2D(_MainTex, i.uv);
-                fixed grayscale = dot(color.rgb, fixed3(0.3, 0.59, 0.11)) * color.a;
+                fixed grayscale = dot(color.rgb, fixed3(0.3, 0.59, 0.11));
 
                 const fixed4 colors[4] = {
                     _Color1,

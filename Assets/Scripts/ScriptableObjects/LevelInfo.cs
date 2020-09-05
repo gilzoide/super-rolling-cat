@@ -7,4 +7,5 @@ public class LevelInfo : ScriptableObject
 {
     public int levelIndex;
     public string nextSceneName;
+    public float timer = 60f;
 }
