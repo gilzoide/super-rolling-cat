@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform movementDirectionBase;
     public Rigidbody body;
     public float restartHeight = -5f;
+    public UnityEvent onRestart;
 
     private Vector3 initialPosition;
     private Quaternion initialRotation;
@@ -63,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
         body.transform.SetPositionAndRotation(bodyInitialPosition, initialRotation);
+        onRestart.Invoke();
         yield return null;
         transform.SetPositionAndRotation(initialPosition, initialRotation);
     }
