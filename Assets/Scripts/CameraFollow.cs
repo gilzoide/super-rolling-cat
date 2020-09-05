@@ -25,7 +25,8 @@ public class CameraFollow : MonoBehaviour
 
     void Update()
     {
-        transform.RotateAround(target.position, Vector3.up, rotateSpeed * movementVector.x * Time.deltaTime);
+        // transform.RotateAround(target.position, Vector3.up, rotateSpeed * movementVector.x * Time.deltaTime);
+        
         transform.position = Vector3.SmoothDamp(transform.position, target.position + offset, ref velocity, smoothTime);
         transform.LookAt(target.position);
     }
