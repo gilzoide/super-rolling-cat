@@ -48,7 +48,7 @@ public class LevelTimer : MonoBehaviour
         
         if (text != null)
         {
-            text.text = time.ToString("f1");
+            text.text = time.ToString("f2");
         }
     }
 }
