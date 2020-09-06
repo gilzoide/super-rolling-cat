@@ -64,11 +64,16 @@ public class PlayerMovement : MonoBehaviour
         StartCoroutine(RestartCoroutine());
     }
 
-    IEnumerator RestartCoroutine()
+    public void StopBody()
     {
         body.Sleep();
         body.velocity = Vector3.zero;
         body.angularVelocity = Vector3.zero;
+    }
+
+    IEnumerator RestartCoroutine()
+    {
+        StopBody();
         body.transform.SetPositionAndRotation(bodyInitialPosition, initialRotation);
         onRestart.Invoke();
         yield return null;

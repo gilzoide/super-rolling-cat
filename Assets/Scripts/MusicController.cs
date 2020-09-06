@@ -44,11 +44,13 @@ public class MusicController : MonoBehaviour
         }
     }
 
-    public static void PlayVictoryTheme()
+    public static float PlayVictoryTheme()
     {
         if (playingInstance)
         {
             PlayTheme(playingInstance.victoryTheme);
+            return playingInstance.victoryTheme.length;
         }
+        return 0f;
     }
 }
