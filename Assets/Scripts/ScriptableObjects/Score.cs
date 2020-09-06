@@ -19,6 +19,7 @@ public class Score : ScriptableObject
     public void PlayerDied()
     {
         deaths++;
+        points = 0;
     }
 
     public void AddPoints(int quantity = 1)

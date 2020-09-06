@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d96d521fe68cc9abf2dbbcb190b909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
+  score: {fileID: 11400000, guid: af4b6edd7eb129477ad3efb884803bb4, type: 2}
   levelInfo: {fileID: 11400000, guid: fde431215fd3e31d79edb70ad0455232, type: 2}
   text: {fileID: 7510203984800175355}
   onTimeOut:
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 694968262804357656}
-  score: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
+  score: {fileID: 11400000, guid: af4b6edd7eb129477ad3efb884803bb4, type: 2}
 --- !u!1 &2279267054241261431
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +485,7 @@ MonoBehaviour:
   onRestart:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
+      - m_Target: {fileID: 11400000, guid: af4b6edd7eb129477ad3efb884803bb4, type: 2}
         m_TargetAssemblyTypeName: Score, Assembly-CSharp
         m_MethodName: PlayerDied
         m_Mode: 1
@@ -499,6 +499,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 4202048114274450626}
         m_TargetAssemblyTypeName: LevelTimer, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CoinCollection, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:

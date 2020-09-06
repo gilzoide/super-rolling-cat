@@ -25,6 +25,7 @@ public class CoinCollection : MonoBehaviour
         {
             coin.gameObject.SetActive(true);
         }
+        pointsCounter.Refresh();
     }
 
     public void OnCoinCollected(Coin coin)
