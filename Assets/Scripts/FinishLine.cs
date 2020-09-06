@@ -19,7 +19,8 @@ public class FinishLine : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             fullGameplayScore.AddScore(currentLevelScore);
-            SceneManager.LoadScene(levelInfo.nextSceneName);
+            var activeScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(activeScene.buildIndex + 1);
         }
     }
 }

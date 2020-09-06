@@ -6,14 +6,13 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-    public LevelInfo firstLevelInfo;
     public Score gameplayScore;
     public GameObject aboutPanel;
 
     public void StartFirstLevel()
     {
         gameplayScore.InitScore();
-        SceneManager.LoadScene(firstLevelInfo.sceneName);
+        SceneManager.LoadScene(1);
     }
 
     public void ToggleAbout()
