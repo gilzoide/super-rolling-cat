@@ -20,4 +20,16 @@ public class Score : ScriptableObject
     {
         deaths++;
     }
+
+    public void AddPoints(int quantity = 1)
+    {
+        points += quantity;
+    }
+
+    public void AddScore(Score other)
+    {
+        deaths += other.deaths;
+        time += other.time;
+        points += other.points;
+    }
 }
