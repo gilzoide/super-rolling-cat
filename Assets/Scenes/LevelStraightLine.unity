@@ -1526,40 +1526,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: linearSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
+      objectReference: {fileID: 1262934508}
     - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Score, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayerDied
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: restartHeight
-      value: -50
+      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 4202048114274450626, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: levelInfo
