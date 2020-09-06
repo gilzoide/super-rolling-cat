@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelRotatingPlatforms.unity
     guid: 964c8a2d97e9bd120824a18a8fe8fc04
   - enabled: 1
+    path: Assets/Scenes/LevelSpiral.unity
+    guid: ef02804d97237f045ab28b430ed231d9
+  - enabled: 1
     path: Assets/Scenes/ScoreMenu.unity
     guid: ab0e45d057985dde9b7b78777e4448aa
   m_configObjects:
