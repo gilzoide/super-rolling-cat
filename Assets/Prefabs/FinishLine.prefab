@@ -61,6 +61,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelInfo: {fileID: 11400000, guid: fde431215fd3e31d79edb70ad0455232, type: 2}
+  currentLevelScore: {fileID: 11400000, guid: af4b6edd7eb129477ad3efb884803bb4, type: 2}
+  fullGameplayScore: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
 --- !u!65 &8985460701186219635
 BoxCollider:
   m_ObjectHideFlags: 0
