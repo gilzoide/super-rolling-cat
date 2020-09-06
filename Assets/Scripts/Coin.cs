@@ -5,14 +5,14 @@ using UnityEngine.Events;
 
 public class Coin : MonoBehaviour
 {
-    public PointsCounter pointsCounter;
+    public CoinCollection coinCollection;
     public int pointsAdded = 1;
 
     void Awake()
     {
-        if (!pointsCounter)
+        if (coinCollection == null)
         {
-            pointsCounter = GameObject.FindObjectOfType<PointsCounter>();
+            coinCollection = GetComponentInParent<CoinCollection>();
         }
     }
 
@@ -20,8 +20,7 @@ public class Coin : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            pointsCounter.AddPoints(pointsAdded);
-            Destroy(gameObject);
+            coinCollection.OnCoinCollected(this);
         }
     }
 }
