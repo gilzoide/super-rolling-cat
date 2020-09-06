@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed022ee68a1138a48faeed528c497e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsCounter: {fileID: 0}
+  coinCollection: {fileID: 0}
   pointsAdded: 1
 --- !u!1001 &8885807566757942655
 PrefabInstance:
