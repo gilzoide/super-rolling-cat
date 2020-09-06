@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 6091583103144939089}
   - component: {fileID: 3273796634108953471}
   m_Layer: 0
-  m_Name: MovementDirection
+  m_Name: PlayerMovement_RestartEvent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
