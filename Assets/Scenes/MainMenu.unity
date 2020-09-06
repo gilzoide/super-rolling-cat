@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b9117655f9c654297eba1fdd59f553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevelInfo: {fileID: 11400000, guid: fde431215fd3e31d79edb70ad0455232, type: 2}
+  firstLevelInfo: {fileID: 11400000, guid: 8b6c20debeff3fae9bef42ea43228df9, type: 2}
   gameplayScore: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
   aboutPanel: {fileID: 712195634}
 --- !u!4 &983375254
