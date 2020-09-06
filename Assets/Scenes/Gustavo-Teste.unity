@@ -391,7 +391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e8246d173b77f13c391b081aae001968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -404,7 +404,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -714,7 +714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e8246d173b77f13c391b081aae001968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -727,7 +727,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -890,6 +890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2405340473939741152, guid: 898faa81f9b0bfe68ba00e9ad3fba5dd, type: 3}
+      propertyPath: levelInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 629664eefaf6c76698cecc63c8f378be, type: 2}
     - target: {fileID: 2405340473939741155, guid: 898faa81f9b0bfe68ba00e9ad3fba5dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.15852398
@@ -1233,7 +1237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e8246d173b77f13c391b081aae001968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1246,7 +1250,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1318,7 +1322,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35520
+  m_Name: pb_Mesh38792
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1580,7 +1584,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-32352
+  m_Name: pb_Mesh38836
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1744,7 +1748,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30740
+  m_Name: pb_Mesh38890
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2112,7 +2116,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-29436
+  m_Name: pb_Mesh38908
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2595,7 +2599,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e8246d173b77f13c391b081aae001968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2608,7 +2612,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2645,7 +2649,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-37256
+  m_Name: pb_Mesh38806
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3249,7 +3253,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e8246d173b77f13c391b081aae001968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3262,7 +3266,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -3369,41 +3373,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: linearSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
+      objectReference: {fileID: 1262934508}
     - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Score, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayerDied
-      objectReference: {fileID: 0}
-    - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
-      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      propertyPath: onRestart.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 3273796634108953471, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: restartHeight
       value: -50
       objectReference: {fileID: 0}
+    - target: {fileID: 4202048114274450626, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
+      propertyPath: levelInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 629664eefaf6c76698cecc63c8f378be, type: 2}
     - target: {fileID: 6167650176673169431, guid: e50a0dc8fd1f22b28b9f204670063880, type: 3}
       propertyPath: movementDirectionBase
       value: 

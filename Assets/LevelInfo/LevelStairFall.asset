@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29c0b1236407dc145af29ad2d50bd9c2, type: 3}
-  m_Name: LevelZigZag
+  m_Name: LevelStairFall
   m_EditorClassIdentifier: 
   levelIndex: 0
-  sceneName: LevelZigZag
-  nextSceneName: Gustavo-Teste
-  timer: 30
+  sceneName: Gustavo-Teste
+  nextSceneName: ScoreMenu
+  timer: 10
