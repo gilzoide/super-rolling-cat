@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gustavo-Teste.unity
     guid: fbfe3f542cdb29f45a8c8426673ec899
   - enabled: 1
+    path: Assets/Scenes/LevelRotatingPlatforms.unity
+    guid: 964c8a2d97e9bd120824a18a8fe8fc04
+  - enabled: 1
     path: Assets/Scenes/ScoreMenu.unity
     guid: ab0e45d057985dde9b7b78777e4448aa
   m_configObjects:
