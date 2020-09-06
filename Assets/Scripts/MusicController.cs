@@ -7,6 +7,7 @@ public class MusicController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip menuTheme;
     public AudioClip gameplayTheme;
+    public AudioClip victoryTheme;
     private static MusicController playingInstance;
 
     void Awake()
@@ -40,6 +41,14 @@ public class MusicController : MonoBehaviour
         if (playingInstance)
         {
             PlayTheme(playingInstance.gameplayTheme);
+        }
+    }
+
+    public static void PlayVictoryTheme()
+    {
+        if (playingInstance)
+        {
+            PlayTheme(playingInstance.victoryTheme);
         }
     }
 }

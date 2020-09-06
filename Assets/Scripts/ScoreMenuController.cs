@@ -12,6 +12,13 @@ public class ScoreMenuController : MonoBehaviour
     void Start()
     {
         statsText.text = $"Points: {gameplayScore.points}\nTime: {gameplayScore.time}\nDeaths: {gameplayScore.deaths}\n";
+        StartCoroutine(PlayMusic());
+    }
+
+    IEnumerator PlayMusic()
+    {
+        MusicController.PlayVictoryTheme();
+        yield return new WaitForSeconds(4f);
         MusicController.PlayMenuTheme();
     }
 
