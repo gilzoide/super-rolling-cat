@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class LevelTimer : MonoBehaviour
 {
     public Score score;
-    public LevelInfo levelInfo;
+    public FinishLine finishLine;
     public Text text;
     public UnityEvent onTimeOut;
 
@@ -15,6 +15,10 @@ public class LevelTimer : MonoBehaviour
 
     void Awake()
     {
+        if (!finishLine)
+        {
+            finishLine = GameObject.FindObjectOfType<FinishLine>();
+        }
         if (!text)
         {
             text = GetComponent<Text>();
@@ -28,7 +32,7 @@ public class LevelTimer : MonoBehaviour
 
     public void Restart()
     {
-        time = levelInfo.timer;
+        time = finishLine.levelInfo.timer;
         enabled = true;
     }
 
