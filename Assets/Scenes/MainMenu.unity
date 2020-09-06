@@ -485,7 +485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b9117655f9c654297eba1fdd59f553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevelInfo: {fileID: 11400000, guid: 8b6c20debeff3fae9bef42ea43228df9, type: 2}
   gameplayScore: {fileID: 11400000, guid: 623293e625237fdfbaa0cde8b3fbe74d, type: 2}
   aboutPanel: {fileID: 712195634}
 --- !u!4 &983375254
@@ -1210,6 +1209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1323969591}
+  menuTheme: {fileID: 8300000, guid: 26dcb341c3d8c4952b1166694edba7b6, type: 3}
+  gameplayTheme: {fileID: 8300000, guid: 876e3d63d362615aea9775926169a183, type: 3}
 --- !u!82 &1323969591
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1220,7 +1221,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 876e3d63d362615aea9775926169a183, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

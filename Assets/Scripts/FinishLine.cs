@@ -12,6 +12,7 @@ public class FinishLine : MonoBehaviour
     void Start()
     {
         currentLevelScore.InitScore();
+        MusicController.PlayGameplayTheme();
     }
 
     void OnTriggerEnter(Collider collider)

@@ -12,6 +12,7 @@ public class ScoreMenuController : MonoBehaviour
     void Start()
     {
         statsText.text = $"Points: {gameplayScore.points}\nTime: {gameplayScore.time}\nDeaths: {gameplayScore.deaths}\n";
+        MusicController.PlayMenuTheme();
     }
 
     public void GoToMainMenu()

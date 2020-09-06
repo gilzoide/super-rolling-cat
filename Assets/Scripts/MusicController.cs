@@ -5,6 +5,8 @@ using UnityEngine;
 public class MusicController : MonoBehaviour
 {
     public AudioSource audioSource;
+    public AudioClip menuTheme;
+    public AudioClip gameplayTheme;
     private static MusicController playingInstance;
 
     void Awake()
@@ -13,7 +15,31 @@ public class MusicController : MonoBehaviour
         {
             playingInstance = this;
             DontDestroyOnLoad(gameObject);
-            audioSource.Play();
+        }
+    }
+
+    private static void PlayTheme(AudioClip clip)
+    {
+        if (playingInstance && playingInstance.audioSource.clip != clip)
+        {
+            playingInstance.audioSource.Stop();
+            playingInstance.audioSource.clip = clip;
+            playingInstance.audioSource.Play();
+        }
+    }
+
+    public static void PlayMenuTheme()
+    {
+        if (playingInstance)
+        {
+            PlayTheme(playingInstance.menuTheme);
+        }
+    }
+    public static void PlayGameplayTheme()
+    {
+        if (playingInstance)
+        {
+            PlayTheme(playingInstance.gameplayTheme);
         }
     }
 }

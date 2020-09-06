@@ -9,6 +9,11 @@ public class MainMenuController : MonoBehaviour
     public Score gameplayScore;
     public GameObject aboutPanel;
 
+    void Start()
+    {
+        MusicController.PlayMenuTheme();
+    }
+
     public void StartFirstLevel()
     {
         gameplayScore.InitScore();
