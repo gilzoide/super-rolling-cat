@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29c0b1236407dc145af29ad2d50bd9c2, type: 3}
-  m_Name: LevelPendulo
+  m_Name: 1_LevelStraightLine
   m_EditorClassIdentifier: 
-  sceneName: LevelPendulo
-  nextSceneName: LevelRotatingPlatforms
-  timer: 25
+  sceneName: LevelStraightLine
+  nextSceneName: LevelZigZag
+  timer: 30

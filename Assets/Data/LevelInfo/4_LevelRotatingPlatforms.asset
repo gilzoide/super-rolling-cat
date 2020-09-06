@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29c0b1236407dc145af29ad2d50bd9c2, type: 3}
-  m_Name: LevelStraightLine
+  m_Name: 4_LevelRotatingPlatforms
   m_EditorClassIdentifier: 
-  levelIndex: 0
-  sceneName: LevelStraightLine
-  nextSceneName: LevelZigZag
-  timer: 30
+  sceneName: LevelRotatingPlatforms
+  nextSceneName: Gustavo-Teste
+  timer: 25
