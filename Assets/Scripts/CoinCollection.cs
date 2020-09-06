@@ -24,6 +24,11 @@ public class CoinCollection : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        pointsCounter.Refresh();
+    }
+
     public void Restart()
     {
         foreach (var coin in allCoins)

@@ -9,9 +9,13 @@ public class FinishLine : MonoBehaviour
     public Score currentLevelScore;
     public Score fullGameplayScore;
 
-    void Start()
+    void Awake()
     {
         currentLevelScore.InitScore();
+    }
+
+    void Start()
+    {
         MusicController.PlayGameplayTheme();
     }
 
