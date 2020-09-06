@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelIndex: 1
   sceneName: Gil-SampleScene
-  nextSceneName: Gil-Level2
+  nextSceneName: ScoreMenu
   timer: 10
