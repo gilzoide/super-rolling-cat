@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29c0b1236407dc145af29ad2d50bd9c2, type: 3}
-  m_Name: LevelStraightLine
+  m_Name: LevelZigZag
   m_EditorClassIdentifier: 
   levelIndex: 0
-  sceneName: LevelStraightLine
-  nextSceneName: LevelZigZag
+  sceneName: LevelZigZag
+  nextSceneName: ScoreMenu
   timer: 30

@@ -12,11 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelStraightLine.unity
     guid: 8a9340da7f61cfe089ac845c336eef3b
   - enabled: 1
-    path: Assets/Scenes/Gil-SampleScene.unity
-    guid: 52424a87f5fb8221cb7aec6b2aa04993
-  - enabled: 1
-    path: Assets/Scenes/Gil-Level2.unity
-    guid: 30e7214e1318f00059553878a6e7e08c
+    path: Assets/Scenes/LevelZigZag.unity
+    guid: 79c9f8f4e682a14589069332df3653ab
   - enabled: 1
     path: Assets/Scenes/ScoreMenu.unity
     guid: ab0e45d057985dde9b7b78777e4448aa
