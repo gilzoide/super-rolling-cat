@@ -6,6 +6,7 @@ using UnityEngine;
 public class LevelInfo : ScriptableObject
 {
     public int levelIndex;
+    public string sceneName;
     public string nextSceneName;
     public float timer = 60f;
 }
