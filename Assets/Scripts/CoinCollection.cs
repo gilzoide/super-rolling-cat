@@ -5,6 +5,7 @@ using UnityEngine;
 public class CoinCollection : MonoBehaviour
 {
     public PointsCounter pointsCounter;
+    public AudioSource audioSource;
     public Coin[] allCoins;
 
     void Awake()
@@ -12,6 +13,10 @@ public class CoinCollection : MonoBehaviour
         if (pointsCounter == null)
         {
             pointsCounter = GameObject.FindObjectOfType<PointsCounter>();
+        }
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
         }
         if (allCoins == null || allCoins.Length == 0)
         {
@@ -30,6 +35,7 @@ public class CoinCollection : MonoBehaviour
 
     public void OnCoinCollected(Coin coin)
     {
+        audioSource.Play();
         coin.gameObject.SetActive(false);
         pointsCounter.AddPoints(coin.pointsAdded);
     }
