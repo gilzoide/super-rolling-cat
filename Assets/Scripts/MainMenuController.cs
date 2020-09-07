@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class MainMenuController : MonoBehaviour
 {
     public Score gameplayScore;
+    public GameObject title;
     public GameObject aboutPanel;
 
     void Start()
@@ -22,6 +23,7 @@ public class MainMenuController : MonoBehaviour
 
     public void ToggleAbout()
     {
+        title.SetActive(!title.activeSelf);
         aboutPanel.SetActive(!aboutPanel.activeSelf);
     }
 }
