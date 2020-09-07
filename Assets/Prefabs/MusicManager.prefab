@@ -143,4 +143,5 @@ MonoBehaviour:
   audioSource: {fileID: 7630843013117754569}
   menuTheme: {fileID: 8300000, guid: 26dcb341c3d8c4952b1166694edba7b6, type: 3}
   gameplayTheme: {fileID: 8300000, guid: 876e3d63d362615aea9775926169a183, type: 3}
+  readyGoClip: {fileID: 8300000, guid: 86715c8b5b9a7883590d9ee072818404, type: 3}
   victoryTheme: {fileID: 8300000, guid: 748c10b0ca7efca32ab7ea2cd666e425, type: 3}

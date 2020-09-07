@@ -24,9 +24,12 @@ public class FinishLine : MonoBehaviour
         }
     }
 
-    void Start()
+    IEnumerator Start()
     {
         MusicController.PlayGameplayTheme();
+        yield return new WaitForSeconds(MusicController.PlayReadyGoClip());
+        playerMovement.enabled = true;
+        levelTimer.enabled = true;
     }
 
     void OnTriggerEnter(Collider collider)

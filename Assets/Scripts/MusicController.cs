@@ -7,6 +7,7 @@ public class MusicController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip menuTheme;
     public AudioClip gameplayTheme;
+    public AudioClip readyGoClip;
     public AudioClip victoryTheme;
     private static MusicController playingInstance;
 
@@ -33,6 +34,7 @@ public class MusicController : MonoBehaviour
     {
         if (playingInstance)
         {
+            playingInstance.audioSource.loop = true;
             PlayTheme(playingInstance.menuTheme);
         }
     }
@@ -40,6 +42,7 @@ public class MusicController : MonoBehaviour
     {
         if (playingInstance)
         {
+            playingInstance.audioSource.loop = true;
             PlayTheme(playingInstance.gameplayTheme);
         }
     }
@@ -48,8 +51,19 @@ public class MusicController : MonoBehaviour
     {
         if (playingInstance)
         {
+            playingInstance.audioSource.loop = false;
             PlayTheme(playingInstance.victoryTheme);
             return playingInstance.victoryTheme.length;
+        }
+        return 0f;
+    }
+
+    public static float PlayReadyGoClip()
+    {
+        if (playingInstance)
+        {
+            playingInstance.audioSource.PlayOneShot(playingInstance.readyGoClip);
+            return 1.7f; // hardcode nas últimas 3h, quem nunca
         }
         return 0f;
     }

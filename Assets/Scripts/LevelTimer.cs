@@ -23,16 +23,14 @@ public class LevelTimer : MonoBehaviour
         {
             text = GetComponent<Text>();
         }
-    }
-
-    void Start()
-    {
-        Restart();
+        time = finishLine.levelInfo.timer;
+        text.text = time.ToString("f2");
     }
 
     public void Restart()
     {
         time = finishLine.levelInfo.timer;
+        text.text = time.ToString("f2");
         enabled = true;
     }
 
