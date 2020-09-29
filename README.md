@@ -1,5 +1,7 @@
-# Game Ball
+# Super Rolling Cat
 Game made for [GBJam 8](https://itch.io/jam/gbjam-8) using [Unity](https://unity.com/) 2020.1
+
+[Play it here!](https://gustavofournier.itch.io/super-rolling-cat)
 
 ### Credits
 
